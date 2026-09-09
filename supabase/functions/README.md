@@ -7,7 +7,7 @@ Email notification setup for OGHA contact form:
 
    supabase secrets set RESEND_API_KEY=your_resend_key
    supabase secrets set CONTACT_FROM_EMAIL="OGHA Soundworks <onboarding@resend.dev>"
-   supabase secrets set CONTACT_TO_EMAIL="shriyandhanush@gmail.com"
+   supabase secrets set CONTACT_TO_EMAIL="oghasoundworks@gmail.com"
 
 5. Deploy the function:
 

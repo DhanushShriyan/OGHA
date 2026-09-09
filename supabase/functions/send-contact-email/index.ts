@@ -21,7 +21,7 @@ Deno.serve(async (request) => {
 
   try {
     const resendApiKey = Deno.env.get('RESEND_API_KEY')
-    const toEmail = Deno.env.get('CONTACT_TO_EMAIL') || 'shriyandhanush@gmail.com'
+    const toEmail = Deno.env.get('CONTACT_TO_EMAIL') || 'oghasoundworks@gmail.com'
     const fromEmail = Deno.env.get('CONTACT_FROM_EMAIL')
 
     if (!resendApiKey || !fromEmail) {
